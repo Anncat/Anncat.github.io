@@ -5,10 +5,22 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="src/css/main.css">
 
+	
 </head>
 <body>
 <header>
 <nav>
+<div class="search">
+         <div class="search__input float-childs">
+              <input type="text" class="input input_search" placeholder="Search">
+         
+               <div class="search__input">
+                	 <div class="button">GO</div>
+          		</div>
+           </div>
+  </div>
+            
+
 	<ul class="menu">
 	  <li><a href="#">Home</a>
 			<ul class="submenu">
@@ -45,25 +57,27 @@
             <li><a href=#>Sudmenu 5</a></li>
         </ul>
      </li>
-			
-	   <div class="btn"></div>
-				<button > Sing Up </button>
-		</ul>
-	</nav>
+     </ul>
+		<div class="button_a">	
+		<a href="#" class="btn">Sing In</a></li>
+		<a href="#" class="btn">Sing Up</a>
+		</div>
+		
+
+ </nav>
 </header>
 
 
 
 <main>
-
-<div class="login_form">
-
-	
+<div class="block dark">
 		<h1>Contacts</h1>
+		</div>
 
-		
-		<form action="">
-		<p>OU</p>
+<div class="login_form op-dark">
+
+	<form action="">
+		<span>OU</span>
 
 		<input type="text" class="login_form_input c-grey" placeholder="First name" required>
 		 
@@ -76,20 +90,34 @@
 		<input type="text" class="login_form_input c-grey" placeholder="Password Confirm" required >
 
 		<p><input type="checkbox" >Send me  updates and tips</p>
-		<button>Send</button>
+
+		<div class="btn_b">
+		 <a href="#" class="btn">Send</a> 
+		 </div>
+		
+		</div>
+
 		</form>
-	</div>
+	
 	  
 </main>
 <footer>
+
+	<ul class="social">
+ 		<li id=”slack” class="social"></li>
+ 		<li id=”facebook” class="social"></li>
+ 		<li id=”git” class="social"></li>
+ 		<li id=”pinterest” class="social"></li>
+	</ul>
 	
+
 </footer>
 					
 		
 	
 		
 
-
+</nav>
 </body>
 
 </html>
